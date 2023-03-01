@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 1844336385}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -363,6 +363,14 @@ PrefabInstance:
     - target: {fileID: 596557948209908168, guid: 1cfcdb36cf1ead14183b8590e7a84a2d, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 596557948209908168, guid: 1cfcdb36cf1ead14183b8590e7a84a2d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905759462290974662, guid: 1cfcdb36cf1ead14183b8590e7a84a2d, type: 3}
+      propertyPath: JumpForce
+      value: 160
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
